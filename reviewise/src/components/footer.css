@@ -1,0 +1,16 @@
+.footer-icon {
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.1);
+}
+.footer-link {
+  text-decoration: none;   /* removes underline */
+  color: inherit;          /* inherits text color (black in your footer) */
+  transition: color 0.3s ease; /* smooth hover */
+}
+
+.footer-link:hover {
+  color: #057DCD;  /* highlight on hover */
+}

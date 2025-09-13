@@ -1,0 +1,17 @@
+.hover-animate {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-animate:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+}
+.features-section h2::before,
+.features-section h2::after,
+.features-section .indicator {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
